@@ -1,4 +1,4 @@
-⋆ {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,6 +8,8 @@ header {
   width: 100%;
   padding: 20px 0;
   text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .nav-list {
@@ -104,7 +106,7 @@ header {
   background-color: #8eb8ff;
 }
 
-.footer {
+footer {
   width: 100%;
   height: 120px;
   background-color: #848282;
