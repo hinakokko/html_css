@@ -34,11 +34,19 @@ main {
   height: 200px;
   margin-right: 5%;
   margin-bottom: 40px;
-  background-color: yellow;
+  background-color: #FFD700;
 }
 
 .main-bottom-list:first-child,
 .main-bottom-list:nth-child(5),
 .main-bottom-list:last-child {
   background-color: #D2691E;
+}
+
+.main-bottom-list:nth-child(3n) {
+  margin-right: 0;
+}
+
+.main-bottom-list:nth-last-child(-n+3) {
+  margin-bottom: 0;
 }
